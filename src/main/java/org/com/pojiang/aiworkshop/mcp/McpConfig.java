@@ -20,7 +20,7 @@ public class McpConfig {
     public List<NamedClientMcpTransport> mcpClientTransport() {
         McpClientTransport transport = HttpClientSseClientTransport
                 .builder("https://mcp.amap.com")
-                .sseEndpoint("/sse?key=f6b9aaf2bee279750de7f8568523b7e7")
+                .sseEndpoint("/sse?key=f6b9aaf2bee279750de7f8568523xxxx")
                 .objectMapper(new ObjectMapper())
                 .build();
 
